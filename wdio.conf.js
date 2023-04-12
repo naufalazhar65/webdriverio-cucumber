@@ -62,8 +62,12 @@ exports.config = {
         //
         browserName: 'chrome',
         'goog:chromeOptions': {
-            args: ['--headless', '--disable-gpu']
-          },
+            args: [
+            '--headless',
+            '--disable-gpu', 
+            '--silent'
+        ]
+        },
         
         acceptInsecureCerts: true
 
@@ -91,7 +95,9 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'info',
+    logLevel: 'silent',
+    // logLevel: 'info',
+
     //
     // Set specific log levels per logger
     // loggers:
