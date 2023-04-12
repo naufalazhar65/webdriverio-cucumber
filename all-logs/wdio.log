@@ -1,0 +1,9 @@
+2023-04-12T11:23:06.129Z INFO chromedriver: Initiate Chromedriver Launcher (v8.1.1)
+2023-04-12T11:23:06.129Z INFO @wdio/cli:launcher: Run onPrepare hook
+2023-04-12T11:23:06.130Z INFO chromedriver: Start Chromedriver (/Users/naufalazhar/Documents/NAUFAL_AZHAR/WEBDRIVERIO_CUCUMBER/node_modules/chromedriver/lib/chromedriver/chromedriver) with args --port=9515 --url-base=/
+2023-04-12T11:23:06.238Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2023-04-12T11:23:06.238Z INFO @wdio/local-runner: Start worker 0-0 with arg: --spec,./features//login.demo.feature
+2023-04-12T11:23:06.922Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2023-04-12T11:23:06.923Z INFO @wdio/cli:launcher: Run onComplete hook
+2023-04-12T11:23:06.944Z INFO @wdio/local-runner: Shutting down spawned worker
+2023-04-12T11:23:07.196Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
