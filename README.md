@@ -6,7 +6,7 @@
 
 # RUN
 - npx wdio --spec ./features//login.demo.feature
-- npx wdio run  wdio.conf.js --silent
+- npx wdio run wdio.conf.js
 
 <img width="939" alt="Screenshot 2023-04-12 at 17 04 38" src="./assets/test.png">
 
